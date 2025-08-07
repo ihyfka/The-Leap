@@ -1,0 +1,102 @@
+html{
+font-size:62.5%;
+}
+*{
+  margin:0;
+  padding:0;
+}
+.pass-verification{
+  position:absolute;
+  top:-17%;
+  display:none;
+  width:95%;
+  justify-items:center;
+  text-align:center;
+  padding:.7rem;
+  font-family:Cambria;
+  background-color:#f33;
+}
+#invalid{
+  font-size:1.7rem;
+  color:#fff;
+}
+#login-container{
+  width:80%;
+  position:absolute;
+  top:45%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  background:#131112;
+}
+.app-name{
+  display:flex;
+  flex-direction:column;
+  text-align: center;
+  margin:1rem 0;
+}
+.site-name{
+  padding:rem 0;
+  font-family:'Trebuchet MS';
+  font-size:4.5rem;
+  color:#92b4f4;
+}
+.required{
+  padding:.3rem 0rem 1.2rem 0;
+  font-family:Tahoma, Verdana;
+  font-size:1.5rem;
+  color:#cfdee7;
+}
+.enter-text{
+  margin:1rem 0;
+  text-align:center;
+  font-size:1.7rem;
+  font-family:'Segoe UI';
+  color:#cfdee7;
+}
+form{
+  display:flex;
+  flex-direction:column;
+  margin:3.5rem auto 0 ;
+  max-width:80%;
+  padding:5%;
+}
+input{
+  padding:1rem;
+  width:80%;
+  font-size:1.5rem;
+  border:.2rem solid #4472ca;
+  border-radius:1rem;
+  margin:0 auto 1.5rem;
+}
+input::placeholder{
+  padding-inline-start:3%;
+  font-size:1.5rem;
+}
+a{
+  display:block;
+  margin:1rem 0 2.5rem 0;
+  padding-inline-start:7%;
+  font-size:1.3rem;
+  font-family:'Segoe UI'; 
+  color:#92b4f4;
+  cursor:pointer;
+}
+button{
+  margin-inline-start:7%;
+  max-width:35%;
+  padding:.7rem;
+  font-size:1.5rem;
+  font-family:'Segoe UI';
+  border:none;
+  border-radius:.7rem;
+  background:#4472ca;
+  color:#fff;
+}
+@media (min-width:1020px){
+  #login-container{
+    max-width:45%;
+  }
+  .pass-verification{
+    width:100%;
+  }
+}

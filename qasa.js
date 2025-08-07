@@ -39,7 +39,7 @@ darkMode.addEventListener("click", function(){
 const log = document.querySelector(".log");
 log.addEventListener("click", function(){
   if(navigator.onLine){
-    window.location.href = "consigno.html";
+    window.location.href = "index.html";
   }else{
     setTimeout(function(){
       window.alert("Unexpected_err_occured \n ID: W5jLnkPQ");
@@ -49,3 +49,4 @@ log.addEventListener("click", function(){
     },1500)
   }
 })
+
